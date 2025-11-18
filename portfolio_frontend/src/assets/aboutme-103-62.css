@@ -1,0 +1,26 @@
+@import url("./common.css");
+
+.aboutme-103-62-screen {
+  position: relative;
+  width: 1920px;
+  height: 6574px;
+  background-color: var(--style-1-background-color);
+  overflow: hidden;
+}
+
+#aboutme-103-62-root {
+  position: relative;
+  width: 1920px;
+  height: 6574px;
+}
+
+#el-105-2 {
+  position: absolute;
+  left: 0px; /* 600 - 600 */
+  top: 0px;  /* -3912 - (-3912) */
+  width: 1921.2168px;
+  height: 6574.4863px;
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+  z-index: 1;
+}

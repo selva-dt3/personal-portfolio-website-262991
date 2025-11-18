@@ -1,0 +1,162 @@
+:root {
+  /* Colors from design_system_T0015-262982-oWwy4De73YbWBpFYXB3OWC.json */
+  --color-020617: #020617;
+  --color-ffffff: #ffffff;
+  --color-9ca3af: #9ca3af;
+  --color-111827: #111827;
+  --color-eab308: #eab308;
+  --color-f3f4f6: #f3f4f6;
+  --color-6b7280: #6b7280;
+  --color-facc15: #facc15;
+  --color-000000: #000000;
+  --color-191d28: #191d28;
+  --color-d1d5db: #d1d5db;
+  --color-1f2937: #1f2937;
+
+  /* Typography variables (family, size, weight, line-height, letter-spacing, align, optional color) */
+  --typo-0-family: 'Arvo', serif;
+  --typo-0-size: 24px; --typo-0-weight: 700; --typo-0-line-height: 29.63671875px; --typo-0-letter-spacing: 0px; --typo-0-align: left;
+
+  --typo-1-family: 'Lexend Deca', sans-serif;
+  --typo-1-size: 16px; --typo-1-weight: 400; --typo-1-line-height: 20px; --typo-1-letter-spacing: 0px; --typo-1-align: left;
+
+  --typo-2-family: 'Lexend Deca', sans-serif;
+  --typo-2-size: 16px; --typo-2-weight: 400; --typo-2-line-height: 27px; --typo-2-letter-spacing: 0px; --typo-2-align: left;
+
+  --typo-3-family: 'Lexend Deca', sans-serif;
+  --typo-3-size: 42px; --typo-3-weight: 700; --typo-3-line-height: 64px; --typo-3-letter-spacing: 0px; --typo-3-align: left;
+
+  --typo-4-family: 'Arvo', serif;
+  --typo-4-size: 16px; --typo-4-weight: 400; --typo-4-line-height: 27px; --typo-4-letter-spacing: 0px; --typo-4-align: left;
+
+  --typo-5-family: 'Lexend Deca', sans-serif;
+  --typo-5-size: 26px; --typo-5-weight: 700; --typo-5-line-height: 41px; --typo-5-letter-spacing: 0px; --typo-5-align: center;
+
+  --typo-6-family: 'Lexend Deca', sans-serif;
+  --typo-6-size: 16px; --typo-6-weight: 400; --typo-6-line-height: 27px; --typo-6-letter-spacing: 0px; --typo-6-align: center;
+
+  --typo-7-family: 'Lexend Deca', sans-serif;
+  --typo-7-size: 42px; --typo-7-weight: 700; --typo-7-line-height: 64px; --typo-7-letter-spacing: 0px; --typo-7-align: center;
+
+  --typo-8-family: 'Arvo', serif;
+  --typo-8-size: 42px; --typo-8-weight: 700; --typo-8-line-height: 64px; --typo-8-letter-spacing: 0px; --typo-8-align: left;
+
+  --typo-9-family: 'Lexend Deca', sans-serif;
+  --typo-9-size: 20px; --typo-9-weight: 400; --typo-9-line-height: 27px; --typo-9-letter-spacing: 0px; --typo-9-align: left;
+
+  --typo-10-family: 'Lexend Deca', sans-serif;
+  --typo-10-size: 16px; --typo-10-weight: 700; --typo-10-line-height: 27px; --typo-10-letter-spacing: 0px; --typo-10-align: left;
+
+  --typo-11-family: 'Arvo', serif;
+  --typo-11-size: 42px; --typo-11-weight: 700; --typo-11-line-height: 64px; --typo-11-letter-spacing: 0px; --typo-11-align: center;
+
+  --typo-12-family: 'Arvo', serif;
+  --typo-12-size: 16px; --typo-12-weight: 700; --typo-12-line-height: 41px; --typo-12-letter-spacing: 0px; --typo-12-align: left;
+
+  --typo-13-family: 'Lexend Deca', sans-serif;
+  --typo-13-size: 16px; --typo-13-weight: 400; --typo-13-line-height: 41px; --typo-13-letter-spacing: 0px; --typo-13-align: left;
+
+  --typo-14-family: 'Lexend Deca', sans-serif;
+  --typo-14-size: 40px; --typo-14-weight: 700; --typo-14-line-height: 50px; --typo-14-letter-spacing: 0px; --typo-14-align: center;
+
+  --typo-15-family: 'Arvo', serif;
+  --typo-15-size: 24px; --typo-15-weight: 700; --typo-15-line-height: 29.63671875px; --typo-15-letter-spacing: 0px; --typo-15-align: left; --typo-15-color: var(--color-ffffff);
+
+  --typo-16-family: 'Lexend Deca', sans-serif;
+  --typo-16-size: 16px; --typo-16-weight: 400; --typo-16-line-height: 20px; --typo-16-letter-spacing: 0px; --typo-16-align: left; --typo-16-color: var(--color-ffffff);
+
+  --typo-17-family: 'Lexend Deca', sans-serif;
+  --typo-17-size: 16px; --typo-17-weight: 400; --typo-17-line-height: 20px; --typo-17-letter-spacing: 0px; --typo-17-align: left; --typo-17-color: var(--color-9ca3af);
+
+  --typo-18-family: 'Lexend Deca', sans-serif;
+  --typo-18-size: 16px; --typo-18-weight: 400; --typo-18-line-height: 27px; --typo-18-letter-spacing: 0px; --typo-18-align: left; --typo-18-color: var(--color-eab308);
+
+  --typo-19-family: 'Lexend Deca', sans-serif;
+  --typo-19-size: 42px; --typo-19-weight: 700; --typo-19-line-height: 64px; --typo-19-letter-spacing: 0px; --typo-19-align: left; --typo-19-color: var(--color-f3f4f6);
+
+  --typo-20-family: 'Lexend Deca', sans-serif;
+  --typo-20-size: 16px; --typo-20-weight: 400; --typo-20-line-height: 27px; --typo-20-letter-spacing: 0px; --typo-20-align: left; --typo-20-color: var(--color-6b7280);
+
+  --typo-21-family: 'Lexend Deca', sans-serif;
+  --typo-21-size: 16px; --typo-21-weight: 400; --typo-21-line-height: 27px; --typo-21-letter-spacing: 0px; --typo-21-align: left; --typo-21-color: var(--color-000000);
+
+  --typo-22-family: 'Arvo', serif;
+  --typo-22-size: 16px; --typo-22-weight: 400; --typo-22-line-height: 27px; --typo-22-letter-spacing: 0px; --typo-22-align: left; --typo-22-color: var(--color-000000);
+
+  --typo-23-family: 'Lexend Deca', sans-serif;
+  --typo-23-size: 26px; --typo-23-weight: 700; --typo-23-line-height: 41px; --typo-23-letter-spacing: 0px; --typo-23-align: center; --typo-23-color: var(--color-f3f4f6);
+
+  --typo-24-family: 'Lexend Deca', sans-serif;
+  --typo-24-size: 16px; --typo-24-weight: 400; --typo-24-line-height: 27px; --typo-24-letter-spacing: 0px; --typo-24-align: center; --typo-24-color: var(--color-6b7280);
+
+  --typo-25-family: 'Lexend Deca', sans-serif;
+  --typo-25-size: 42px; --typo-25-weight: 700; --typo-25-line-height: 64px; --typo-25-letter-spacing: 0px; --typo-25-align: center; --typo-25-color: var(--color-f3f4f6);
+
+  --typo-26-family: 'Lexend Deca', sans-serif;
+  --typo-26-size: 16px; --typo-26-weight: 400; --typo-26-line-height: 27px; --typo-26-letter-spacing: 0px; --typo-26-align: center; --typo-26-color: var(--color-9ca3af);
+
+  --typo-27-family: 'Arvo', serif;
+  --typo-27-size: 42px; --typo-27-weight: 700; --typo-27-line-height: 64px; --typo-27-letter-spacing: 0px; --typo-27-align: left; --typo-27-color: var(--color-f3f4f6);
+
+  --typo-28-family: 'Lexend Deca', sans-serif;
+  --typo-28-size: 16px; --typo-28-weight: 400; --typo-28-line-height: 27px; --typo-28-letter-spacing: 0px; --typo-28-align: left; --typo-28-color: var(--color-9ca3af);
+
+  --typo-29-family: 'Lexend Deca', sans-serif;
+  --typo-29-size: 20px; --typo-29-weight: 400; --typo-29-line-height: 27px; --typo-29-letter-spacing: 0px; --typo-29-align: left; --typo-29-color: var(--color-d1d5db);
+
+  --typo-30-family: 'Lexend Deca', sans-serif;
+  --typo-30-size: 26px; --typo-30-weight: 700; --typo-30-line-height: 41px; --typo-30-letter-spacing: 0px; --typo-30-align: center; --typo-30-color: var(--color-eab308);
+
+  --typo-31-family: 'Lexend Deca', sans-serif;
+  --typo-31-size: 16px; --typo-31-weight: 700; --typo-31-line-height: 27px; --typo-31-letter-spacing: 0px; --typo-31-align: left; --typo-31-color: var(--color-d1d5db);
+
+  --typo-32-family: 'Arvo', serif;
+  --typo-32-size: 42px; --typo-32-weight: 700; --typo-32-line-height: 64px; --typo-32-letter-spacing: 0px; --typo-32-align: center; --typo-32-color: var(--color-f3f4f6);
+
+  --typo-33-family: 'Arvo', serif;
+  --typo-33-size: 16px; --typo-33-weight: 700; --typo-33-line-height: 41px; --typo-33-letter-spacing: 0px; --typo-33-align: left; --typo-33-color: var(--color-eab308);
+
+  --typo-34-family: 'Lexend Deca', sans-serif;
+  --typo-34-size: 16px; --typo-34-weight: 400; --typo-34-line-height: 41px; --typo-34-letter-spacing: 0px; --typo-34-align: left; --typo-34-color: var(--color-f3f4f6);
+
+  --typo-35-family: 'Lexend Deca', sans-serif;
+  --typo-35-size: 40px; --typo-35-weight: 700; --typo-35-line-height: 50px; --typo-35-letter-spacing: 0px; --typo-35-align: center; --typo-35-color: var(--color-ffffff);
+
+  /* Styles mapping (only style_1 used by this screen) */
+  --style-1-background-color: var(--color-ffffff);
+  --style-0-background-color: var(--color-020617);
+  --style-2-background-color: var(--color-9ca3af);
+  --style-3-background-color: var(--color-111827);
+  --style-4-background-color: var(--color-eab308);
+  --style-5-background-color: var(--color-f3f4f6);
+  --style-6-background-color: var(--color-6b7280);
+  --style-7-background-color: var(--color-facc15); --style-7-border-radius: 4px;
+  --style-8-background-color: var(--color-000000);
+  --style-9-border-radius: 24px;
+  --style-10-border-color: var(--color-eab308); --style-10-border-width: 16px; --style-10-border-radius: 24px;
+  --style-11-background-color: var(--color-eab308); --style-11-border-radius: 4px;
+  --style-12-background-color: var(--color-020617); --style-12-border-radius: 12px;
+  --style-13-border-radius: 12px;
+  --style-14-background-color: var(--color-191d28);
+  --style-15-background-color: var(--color-d1d5db);
+  --style-16-background-color: var(--color-1f2937);
+
+  /* Spacing standard aliases */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Box shadows (none defined in this design system; keep placeholders) */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Global reset for sizing precision */
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-ffffff);
+}
